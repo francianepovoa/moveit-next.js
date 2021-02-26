@@ -1,16 +1,10 @@
-import { ChallengesProvider } from "../contexts/ChallengesContext";
+import { AppProps } from "next/app";
+
 import "../styles/global.css";
 
-function MyApp({ Component, pageProps }) {
-	return (
-		<ChallengesProvider>
-			<Component {...pageProps} />
-		</ChallengesProvider>
-	);
+export default function App({ Component, pageProps }: AppProps) {
+	return <Component {...pageProps} />;
 }
-
-export default MyApp;
-
 //* #Rumoaoproximonivel (primeiro dia)
 //? No primeiro dia vamos conhecer os conceitos por trás de um front-end SPA, os principais fundamentos do React
 //? como componentes, propriedades, estado e ferramentas que funcionam por trás da biblioteca como Webpack e Babel.
@@ -29,3 +23,17 @@ export default MyApp;
 //* #neverstoplearning (quarto dia)
 //? Na quarta aula iremos continuar evoluindo nossa aplicação, aprender ainda mais sobre a Context API,
 //? e aprender a como utilizar as notificações e sons do navegador para melhorar a experiência do usuário.
+
+//*  #nextlevel ( quinto dia)
+//?  Nessa última aula entendermos os próximos passos para avançar nos
+//?  aprendizados com React com dicas de ferramentas, bibliotecas e conceitos a serem estudados.
+//?  Também incrementaremos nossa aplicação com algumas features adicionais a fim de mostrar
+//?  como aplicar esses próximos passos dentro do app desenvolvido na semana.
+
+//* Códigos
+//? Novas alterações _ vercel
+//? Direto para produção _ vercel --prod
+
+//* ideias
+//? PWA
+//? DarkMode

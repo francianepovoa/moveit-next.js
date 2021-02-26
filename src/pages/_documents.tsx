@@ -1,15 +1,15 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import React, { ReactElement } from "react";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
-// ! Favicon problem
 export default class MyDocument extends Document {
 	render() {
 		return (
 			<Html>
 				<Head>
+					<link rel='preconnect' href='https://fonts.gstatic.com' />
+
 					<link
 						rel='shortcut icon'
-						href='/public/favicon/favicon.png'
+						href='/public/favicon.png'
 						type='image/png'
 					/>
 
@@ -17,7 +17,6 @@ export default class MyDocument extends Document {
 						href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Rajdhani:wght@600&display=swap'
 						rel='stylesheet'
 					/>
-					<link rel='preconnect' href='https://fonts.gstatic.com' />
 				</Head>
 				<body>
 					<Main />
