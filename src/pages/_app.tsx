@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
 //? Na quarta aula iremos continuar evoluindo nossa aplicação, aprender ainda mais sobre a Context API,
 //? e aprender a como utilizar as notificações e sons do navegador para melhorar a experiência do usuário.
 
-//*  #nextlevel ( quinto dia)
+//*  #missioncompletd ( quinto dia)
 //?  Nessa última aula entendermos os próximos passos para avançar nos
 //?  aprendizados com React com dicas de ferramentas, bibliotecas e conceitos a serem estudados.
 //?  Também incrementaremos nossa aplicação com algumas features adicionais a fim de mostrar

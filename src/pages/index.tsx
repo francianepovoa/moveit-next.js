@@ -32,6 +32,7 @@ export default function Home({
 				<main className={styles.container}>
 					<Head>
 						<title>move.it | Início</title>
+						<link rel='shortcut icon' href='/static/favicon.png' />
 					</Head>
 
 					<ExperienceBar />
