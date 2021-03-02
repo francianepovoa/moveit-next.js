@@ -1,8 +1,8 @@
+# Move it is an application built on Next.js
+
 <h2 align="center">
 	<img alt="Project Screenshots" src="./public/logo-full.svg" />
 </h2>
-
-# Move it is an application built on Next.js
 
 <p align="center">
 
